@@ -1,0 +1,512 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>ChampionClub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="main__header">
+      <div class="main__header--wrapper">
+        <a href="#" class="main__header-link">...contact us: support@championcasino.net</a>
+        <div class="players-online">
+          <span>16787 players online</span>
+        </div>
+        <div class="register">
+          <button id ="register-popap" class="register-popap  btn btn--register">Вход/Регистрация</button>
+        </div>
+        <div class="lang">
+          <img src="img/flag.png" alt="">
+          <div class="select-wrapper">
+            <div class="select-arrow-3"></div>
+            <div class="select-arrow-3"></div>
+            <select>
+              <option value="ru" selected>Ru</option>  
+            <option value="en">En</option>   
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="main__wrapper">
+        <div class="main__logo">
+          <a href="#">
+          <img src="img/champion-casino_logo.png" alt="">
+          </a>
+        </div>
+        <div class="mesJack-wrap">
+          <div id="message" class="message">
+            <div class="message__wrapper">
+              <p class="message__title">Сообщение для игроков
+              </p>
+              <div class="message__text"><p>Зарегистрируйся на ChampionCasino.net! </p><p>Сделай первый депозит от 100€! Получи БОНУС 50% от депозита!</p></div>
+            </div>
+          </div>
+          <div class="jackpothead">
+              <div class="jackpotWrap">
+                <div class="jackpot">
+                  <span>JACKPOT</span>
+                  <span class="jackpot__num">23724.67</span>
+                </div>
+                <div class="bonus">
+                  <span>BONUS</span>
+                  <span class="bonus__num">2823.95</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="download">
+            <a href="#" download class="btn btn--download">Скачать версию для windows</a>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="games" id="assortment">
+      <div class="games__wrapper">
+        <div id="myBtnContainer" class="myBtnContainer">
+          <button class="tab active" onclick="filterSelection('all')" style="display: none;">All</button>
+          <button class="tab" onclick="filterSelection('first')">
+            <img src="img/tab1.png" alt="">
+            <span>TABLE GAMES</span>
+          </button>
+          <button class="tab" onclick="filterSelection('second')">
+            <img src="img/tab2.png" alt="">
+            <span>VIDEO SLOTS</span>
+          </button>
+          <button class="tab" onclick="filterSelection('third')">
+            <img src="img/tab3.png" alt="">
+            <span>SHORT SLOTS</span>
+          </button>
+        </div>
+        
+        <div class="container-wrap">
+        <div class="container">
+    
+          <div class="filterDiv first">
+            <figure class="card">
+              <img src="img/game1.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+        
+          <div class="filterDiv first">
+            <figure class="card">
+              <img src="img/game2.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+        
+          <div class="filterDiv first">
+            <figure class="card">
+              <img src="img/game3.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+        
+          <div class="filterDiv first">
+            <figure class="card">
+              <img src="img/game4.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+      
+          <div class="filterDiv first">
+            <figure class="card">
+              <img src="img/game5.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+        
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game6.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+    
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game7.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+      
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game8.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+     
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game9.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game10.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game11.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game12.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game13.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game14.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv second">
+            <figure class="card">
+              <img src="img/game15.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game16.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game17.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game18.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game19.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game20.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game21.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game22.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game23.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game24.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game25.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game26.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game27.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+
+          <div class="filterDiv third">
+            <figure class="card">
+              <img src="img/game28.png" alt="img" class="card__img">
+              <figcaption class="card__text">Russian Poker</figcaption>
+              <a href="#" class="btn  btn--card">play now</a>
+            </figure>
+          </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="potential">
+      <div class="potential__wrapper">
+        <h2>«Чемпион» – казино онлайн</h2>
+        <ul class="potential__items">
+          <div class="potential__items-row">
+          <li class="potential__item">
+            <img src="img/bullet_02.png" alt="">
+            <p>Если вы оказались на нашем информационном ресурсе, возможно, вы имеете представление о платформе champion casino. На ней реализованы игровые продукты, ставшие безумно популярными в оффлайн-заведениях.</p>
+          </li>
+          <li class="potential__item">
+            <img src="img/bullet_02.png" alt="">
+            <p>Большинство людей, обожающих азарт, уже оценили наши возможности и убедились в реальности получения выигрыша и в его внушительном размере.</p>
+          </li>
+          <li class="potential__item">
+            <img src="img/bullet_02.png" alt="">
+            <p>Игры характеризуются живостью графики. Регулярно предоставляются бонусы. Это далеко не все, что онлайн-казино «Чемпион» предлагает для игроков. Они могут снять «сливки», соприкоснувшись с внутренними бонусами в виде прогрессивных джекпотов, слотовых турниров и множества разнообразных акций.</p>
+          </li>
+          <li class="potential__item">
+            <img src="img/bullet_02.png" alt="">
+            <p>Истинный любитель азарта не пропускает такую возможность. От удачи отделяет лишь 3 шага, выполнив которые, вы станете частью сообщества геймеров и сможете наслаждаться процессом в любое удобное время, запустив скачанную на компьютер платформу.</p>
+          </li>
+          </div>
+          <div class="potential__items-row">
+          <li class="potential__item">
+            <img src="img/bullet_02.png" alt="">
+            <p>Мы руководствуемся приоритетами, включающими предоставление игрокам определенного типа рулетки, а также слотов, над которыми поработали мировые производители, специализирующиеся на продукции для игровой индустрии.</p>
+          </li>
+          <li class="potential__item">
+            <img src="img/bullet_02.png" alt="">
+            <p>Большая часть предложений на сайте до недавнего времени имела отношение к интерактивным клубам. Именно оттуда были взяты некоторые идеи. Сегодня все обстоит иначе. Казино Champion покорило сердца азартных игроков и почитателей гемблинга онлайн. Теперь увлекательные развлечения доступны не только избранным. Приобщиться к ним может любой желающий. Размещайте любимые игры в удобной папке и регулярно получайте хорошую порцию адреналина, не выходя из дома.</p>
+          </li>
+          <li class="potential__item">
+            <img src="img/bullet_02.png" alt="">
+            <p>Теперь увлекательные развлечения доступны не только избранным. Приобщиться к ним может любой желающий. Размещайте любимые игры в удобной папке и регулярно получайте хорошую порцию адреналина, не выходя из дома.</p>
+          </li>
+          </div>
+        </ul>
+        <p class="potential__text">У чемпион казино нет конкурентов на просторах СНГ. Оно занимает лидирующие позиции, которых удалось достигнуть благодаря постоянно растущей востребованности онлайн-игр.</p>
+      </div>
+    </section>
+
+    <section class="relax">
+      <div class="relax__wrapper">
+        <h2>Развлечения для вас</h2>
+        <ul class="relax__items">
+          <div class="relax__items-row">
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Ассортимент казино «Чемпион» отличается продуманностью и огромным разнообразием. Вас ждут полюбившиеся каждому игры, такие как Sea Light, Book of Winners, Rich Fruits, Fire Frenzy. Они обладают 9 линиями.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Присутствуют и 20-линейные, представленные Golden Harvest, Robinson и Casino and Stars. Не останутся обделенными и поклонники традиционного варианта игровых заведений. Для них есть бинго и рулетка.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Вы испытаете истинное наслаждение от процесса игры. Не обойдется и без неожиданных уловок.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Разработанная платформа casino характеризуется устойчивым функционированием. Системные требования минимальны. Скорость интернет-соединения не имеет значения.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Выбирайте предпочтительную валюту. Гарантируем возврат 10% от вашего проигрыша.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Онлайн-казино Champion вдохнуло новую жизнь в привычные игры. Их список подвергается постоянному пополнению. Появляются новые, достойные внимания игровые экземпляры.</p>
+          </li>
+          </div>
+          <div class="relax__items-row">
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Появляются новые, достойные внимания игровые экземпляры. Русскоговорящие пользователи сайта уже прикоснулись к незабвенной классике и убедились в ее качестве.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Популярность платформы набирает обороты. Личный игровой зал в домашних условиях привлекает тем, что поддерживается использование банковских карт и платежных систем для вывода выигранных сумм и пополнения баланса.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Есть все для комфортной игры и экономии времени. Играйте и оставайтесь в прибыли.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Все транзакции проходят при использовании вкладки «Касса». Размер минимального депозита составляет 30 руб., 1$ или 5 грн. В разделе «Оплата» размещена информация по применяемым платежным системам.</p>
+          </li>
+          <li class="relax__item">
+            <img src="img/bullet_01.png" alt="">
+            <p>Вы становитесь обладателем доступа в казино после ввода специального кода, присланного в СМС или по электронной почте.</p>
+          </li>
+          </div>
+        </ul>
+        <p class="relax__text">В завершение хотим подчеркнуть преимущества онлайн-казино в финансовом и игровом плане. Вы получаете функциональный, полноценный и доступный продукт.</p>
+      </div>
+    </section>
+    
+    <section class="menu">
+      <ul class="menu__items">
+        <li class="menu__item"><a href="#">ABOUT US & CONTACTS</a></li>
+        <li class="menu__item"><a href="#">Новости</a></li>
+        <li class="menu__item"><a href="#">PRIVACY POLICY</a></li>
+        <li class="menu__item"><a href="#">CASINO FAQ</a></li>
+        <li class="menu__item"><a href="#">TERMS & CONDITION</a></li>
+      </ul>
+    </section>
+
+    <section class="cards">
+      <ul class="cards__items">
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/yandex.png" alt="">
+          </a>
+        </li>
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/qiwi.png" alt="">
+          </a>
+        </li>
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/bitcoin.png" alt="">
+          </a>
+        </li>
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/mts.png" alt="">
+          </a>
+        </li>
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/exmo.png" alt="">
+          </a>
+        </li>
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/master.png" alt="">
+          </a>
+        </li>
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/visa.png" alt="">
+          </a>
+        </li>
+        <li class="cards__item">
+          <a href="#">
+            <img src="img/mir.png" alt="">
+          </a>
+        </li>
+       
+      </ul>
+    </section>
+    
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <p class="footer__text1">Darkoda Investments LTD is a company operating ChampionCasino.net</p>
+        <p class="footer__text2">All rights reserved © 2020 ChampionCasino.net</p>
+        <p class="footer__text3">White Air Trading N.V.is incorporated and licensed under the laws of Curacao, Netherland Antilles and operates its regulated activities in terms of License No: 1668/JAZ. On 27th of March 2015 White Air Trading N.V. and Darkoda Investments LTD, a limited liability company incorporated under the laws of Cyprus entered into a Co-Operation Agreement where the Parties agreed would act as an intermediary, promote and market licenses, products and services offered by White Air Trading N.V.</p>
+      </div>
+    </footer>
+
+<!------popap------>
+    <div class="overlay">
+    </div>
+
+    <div class="popap-wrapper">           
+      <form action="#" class="popap" method="POST">
+      <span id="closeform" class="popap__close"></span>
+      <div class="popap__row">
+        <div class="popap__input  popap__input--name">
+          <label for="name">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+
+        <div class="popap__input  popap__input--tel">
+          <label for="text">Пароль</label>
+          <input type="pass" id="pass" name="pass">
+        </div>
+      </div>
+      <div class="popap__rebuild">
+        <a href="#">Восстановить пароль</a>
+      </div>
+      <div class="btn__popap">
+        <input type="submit" class="btn  btn--popap" value="Регистрация">
+        <input type="submit" class="btn  btn--enter" value="Вход">
+      </div>
+      </form>  
+    </div>
+
+  <script type="text/javascript" src="js/popap.js"></script>
+  <script type="text/javascript" src="js/tab.js"></script>
+  <script type="text/javascript" src="js/anim.js"></script>
+  </body>
+</html>
